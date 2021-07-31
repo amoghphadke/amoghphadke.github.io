@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+
+   <head>
+      <title>Narrative Visualization</title>
+      
+   </head>
+   <style>h1 {text-align: center;}
+        p {text-align: center;}</style>
+   <body>
+       <h1>Narrative Visualization Project</h1>
+
+       <p>This website uses the World Happiness Indicators dataset to explore the relationship between GDP and social support within a country. Through these graphs, we can explore three different years and see the trend towards increased GDP and social support. </p>
+       <p>This is an <b>Interactive Slideshow</b> that allows the viewer to cycle through three years of data and see the trend towards more social support. We can see that GDP and social support are highly correlated and tend to increase together.</p>
+       <div class="btn-group">
+         <!--<button onclick="window.location.href='narrative2.html'">One Year </button>-->
+         <button style="background-color: lightskyblue;">2008 </button>
+         <button onclick="window.location.href='narrative2014.html'">2014 </button>
+         <button onclick="window.location.href='narrative2020.html'">2020 </button>
+       </div>
+
+       
+          This graph shows data from 2008. Hover over the dots to learn the exact values!
+       <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
+    <div id="code"></div>
+    <div id="example1"></div>
+    <script type="text/javascript" src = "narrative.js"></script>
+    
+   </body>
+
+</html>
